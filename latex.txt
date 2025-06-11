@@ -1,0 +1,394 @@
+*********************************************LAB – 1**********************************************
+
+\documentclass[12pt,a4paper]{article}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{fancyhdr}
+\begin{document}
+\pagestyle{fancy}
+\title{LaTeX Project}
+\fancyhf{} % clear existing header/footer entries
+\fancyhead{} % clear all header fields
+\fancyhead[R]{LaTeX Project}
+\fancyfoot{} % clear all footer fields
+\fancyfoot[LO,CE]{Sapthagiri college of engineering}
+\fancyfoot[R]{\thepage}
+\maketitle
+\section{About SCE}
+Sapthagiri College of Engineering, Bangalore popularly known as SCE is the
+brain child of the well known industrialist and philanthropist Shri.Mr. G.
+Dayanand.....
+\begin{itemize}
+\item PEO1: Graduates will have a strong foundation...
+\item PEO2: Graduates will have successful careers.....
+\item PEO3: Graduates will instill interpersonal skills...
+\end {itemize}
+\subsection{Program Specific Outcomes}
+\begin{itemize}
+\item PSO1: Ability to adapt to a rapidly changing environment......
+\item PSO2: Ability to use diverse knowledge across the domains.....
+\end {itemize}
+\end{document}
+
+*********************************************LAB – 2**********************************************
+
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[left=3cm,right=3cm,top=2cm,bottom=2cm]{geometry}
+\begin{document}
+\thispagestyle{plain}
+\begin{center}
+\Large
+\textbf{COVID-19 and Comorbid}
+\vspace{0.4cm}
+\large
+\\
+AI in Medical Field
+\vspace{0.9cm}
+\\
+\textbf{Abstract}
+\end{center}
+The advent of COVID-19 marks a significant turning point in medical history, leading to
+increased reliance on advanced technologies such as deep learning models. These
+models have become indispensable for promptly identifying COVID-19 in medical images
+obtained through Computerized Tomography (CT), Ultrasound, and X-ray scans.....
+\\
+Keywords: Computerized Tomography, Coronavirus-19
+\\
+\textbf{Summary}
+\\
+The study reveals that CT scans excel in disease detection compared to X-ray and
+Ultrasound scans.....
+\end{document}
+
+*********************************************LAB – 3**********************************************
+\documentclass{report}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{geometry}
+\newcommand{\titlepageVTU}{
+\begin{titlepage}
+\begin{center}
+\\
+\textbf{\huge Visvesvaraya Technological University}
+\\
+\\
+\vspace*{1cm}
+\includegraphics[width=0.3\textwidth]{vtulogo.jpeg}
+\\
+\\
+\vspace*{3cm}
+\textbf{\LARGE Sapthagiri college of engineering }
+\vspace{0.5cm}
+\\
+{\Large Department of Computer Science and Engineering}
+\vspace{2cm}
+\\
+{\huge\textbf{PROJECT - 3}}
+\vspace{2cm}
+\\
+\textbf{\Large By}
+\vspace{0.5cm}
+{\Large Aaryan Kumar}
+\textbf{\Large Prof. ANURADHA B}
+\vspace{0.5cm}
+\\
+{\large 4th Semester, 2025}
+\end{center}
+\end{titlepage}
+}
+\begin{document}
+\titlepageVTU
+\end{document}
+
+*********************************************LAB – 4**********************************************
+\documentclass[a4paper]{article}
+\usepackage{tcolorbox}
+\usepackage{xcolor}
+\usepackage{setspace}
+\usepackage{graphicx}
+\begin{document}
+\begin{titlepage}
+\begin{tcolorbox}[colframe=black, colback=white, boxrule=2pt, arc=0pt]
+\begin{center}
+\vspace{1cm}
+\Large\textbf{SAPTHAGIRI COLLEGE OF ENGINEERING\\[7pt]
+BENGALURU-560057\\[7pt]
+DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING}
+\vspace{1cm}
+\includegraphics[width=0.3\textwidth]{vtulogo.jpeg}
+\vspace{1cm}
+\textbf{\underline{CERTIFICATE}}
+\end{center}
+\doublespacing
+This is to certify that \textbf{\color{blue}Aaryan} has submitted the Dissertation Phase 2 Report on
+\textbf{\color{blue}"OntoCopy: Copyright Ontology on Indian Court Judgements for Case Summarisation"} for the fulfillment of
+\textbf{IV semester Computer Science and Engineering}, with a Master’s in Information Technology prescribed by the
+\textbf{VTU} for the academic year 2023–2024. The report has been approved as it satisfies the academic requirements and work
+guidelines prescribed for the said degree.
+\vspace{2cm}
+\noindent
+\begin{minipage}[t]{0.5\textwidth}
+\centering
+\rule{10em}{0.4pt}\\
+\textbf{Prof. Anuradha B}\\
+Asst. Professor \& Guide\\
+Dept. of CSE, SCE, Bengaluru
+\end{minipage}%
+\begin{minipage}[t]{0.5\textwidth}
+\centering
+\rule{10em}{0.4pt}\\
+\textbf{Dr. Kamalakshi Naganna}\\
+Professor \& Head\\
+Dept. of CSE, SCE, Bengaluru
+\end{minipage}
+\vspace{1.5cm}
+\noindent
+\begin{minipage}[t]{0.5\textwidth}
+\centering
+\rule{10em}{0.4pt}\\
+\textbf{Examiner 1}
+\end{minipage}%
+\begin{minipage}[t]{0.5\textwidth}
+\centering
+\rule{10em}{0.4pt}\\
+\textbf{Examiner 2}
+\end{minipage}
+\end{tcolorbox}
+\end{titlepage}
+\end{document}
+
+*********************************************LAB – 5**********************************************
+
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{multirow}
+\begin{document}
+\begin{center}
+\begin{Large}
+\textbf{Table : Students Details of 4th semester CSE}
+\end{Large}
+\end{center}
+\section*{Marks Details}
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+\multirow{2}{*}{S.No} & \multirow{2}{*}{USN} & \multirow{2}{*}{Student
+Name} &
+\multicolumn{4}{c|}{Marks} \\
+\cline{4-7}
+& & & MATHS & ADA & DBMS & MC\\
+\hline
+1 & 1SG23CS001 & A R SAGAR & 45 & 77 & 97 &58 \\
+\hline
+2 & 1SG23CS002 & AARYAN & 74 & 78 & 66 &88 \\
+\hline
+3 & 1SG23CS003 & ABHAY & 88 & 82 & 79 &95\\
+\hline
+\end{tabular}
+\end{document}
+
+*********************************************LAB – 6**********************************************
+
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{subcaption}% For side-by-side
+\begin{document}
+\textbf{\huge Side-by-Side Subgraph}
+\begin{figure}[ht]
+\subfloat[First Dataset Accuracy]{
+\begin{minipage}[c][1\width]{ 0.3\textwidth}
+\centering
+\includegraphics[width=1\textwidth]{graph1.png}
+\end{minipage}}
+\hfill
+\subfloat[Second Dataset Accuracy]{
+\begin{minipage}[c][1\width]{ 0.3\textwidth}
+\centering
+\includegraphics[width=1.1\textwidth]{graph2.png}
+\end{minipage}}
+\hfill
+\subfloat[Comparison]{
+\begin{minipage}[c][1\width]{ 0.3\textwidth}
+\centering
+\includegraphics[width=1.2\textwidth]{graph3.png}
+\end{minipage}}
+\caption{Performance Analysis}
+\end{figure}
+\end{document}
+
+*********************************************LAB – 7**********************************************
+
+\documentclass{article}
+\usepackage{amsmath} % This package is required for the 'aligned'
+environment
+\begin{document}
+\title{Following Two Mathematical Equations}
+\date{}
+\maketitle
+% Use the 'align' environment to align equations properly
+\[
+\begin{aligned}
+% Left side: equations about 'x'
+\begin{split}
+x &= \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \\
+&= \frac{-2 \pm \sqrt{2^2 - 4 \cdot 1 \cdot (-8)}}{2 \cdot 1} \\ &= \frac{-2 \pm
+\sqrt{4 + 32}}{2}
+\end{split}
+\quad \quad \quad &
+% Right side: equations about 'phi_{\sigma}^{\lambda} A_t'
+\begin{split}
+\varphi_{\sigma}^{\lambda} A_{t} &= \sum_{\pi \in C_{t}}
+\operatorname{sgn}(\pi)
+\varphi_{\sigma}^{\lambda} \varphi_{\pi}^{\lambda} \notag \\
+&= \sum_{\tau \in C_{\sigma t}} \operatorname{sgn}(\pi^{-1} \tau \sigma)
+\varphi_{\sigma}^{\lambda} \varphi_{\pi^{-1} \tau \sigma}^{\lambda} \notag
+\\ &= A_{\sigma t} \varphi_{\sigma}^{\lambda}
+\end{split}
+\end{aligned}\]
+\end{document}
+
+*********************************************LAB – 8**********************************************
+
+\documentclass{article}
+\newtheorem{definition}{Definition}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{corollary}{Corollary}[theorem]
+\newtheorem{lemma}[theorem]{Lemma}
+\begin{document}
+\section{Introduction}
+Theorems can easily be defined:
+% Presenting a definition with an example
+\begin{definition}
+In a right-angled triangle...
+\end{definition}
+\begin{theorem}[Pythagorean theorem]
+\label{pythagorean}
+This is a theorem ..
+\[ x^2 + y^2 = z^2 \]
+\end{theorem}
+\begin{corollary}
+There's no right rectangle whose sides measure 3cm, 4cm, and 6cm.
+\end{corollary}
+\begin{lemma}
+Triangles with the same base and height have the same area.
+\end{lemma}
+\end{document}
+
+*********************************************LAB – 9**********************************************
+
+\documentclass{article}
+\usepackage[numbers]{natbib}
+\title{Document that Consists of Two Paragraphs with a minimum of 10
+Citations in it and Displaying the References in the Section}
+\date{}
+\begin{document}
+\maketitle
+\paragraph{Paragraph 1}
+The theory of relativity has been explored \citep{author1,author2,author3}.
+Einstein's contributions to physics are profound \citep{author4,author5}.
+Researchers continue to investigate \citep{author6,author7}. These
+advancements have led to new methods \citep{author8}.
+\paragraph{Paragraph 2}
+Recent studies have focused on the impact of climate change
+\citep{author9,author10}. Scientists are examining..........
+\newpage
+\begin{thebibliography}{99}
+\bibitem{author1} Author One. \textit{Title One}. Journal, 2022.
+\bibitem{author2} Author Two. \textit{Title Two}. Publisher, 2021.
+\bibitem{author3} Author Three. \textit{Title Three}. Journal 2020.
+\bibitem{author4} Author Four. \textit{Title Four}. Journal, 2019.
+\bibitem{author5} Author Five. \textit{Title Five}. Publisher, 2018.
+\bibitem{author6} Author Six. \textit{Title Six}. Conference, 2017.
+\bibitem{author7} Author Seven. \textit{Title Seven}. Journal, 2016.
+\bibitem{author8} Author Eight. \textit{Title Eight}. Publisher, 2015.
+\bibitem{author9} Author Nine. \textit{Title Nine}. Conference, 2014.
+\bibitem{author10} Author Ten. \textit{Title Ten}. Journal, 2013.
+\end{thebibliography}
+\end{document}
+
+*********************************************LAB – 10**********************************************
+
+\documentclass{article}
+\usepackage{tikz}
+\usetikzlibrary{trees}
+\begin{document}
+\title{Tree Diagram using TikZ}
+\date{}
+\maketitle
+\begin{center}
+\begin{tikzpicture}[
+level 1/.style={sibling distance=7cm},
+level 2/.style={sibling distance=4cm},
+level distance=2cm,
+every node/.style={font=\large}
+]
+\node {Root}
+child {node {Child 1}
+child {node {Grandchild 1.1}}
+child {node {Grandchild 1.2}}}
+child {node {Child 2}
+child {node {Grandchild 2.1}}
+child {node {Grandchild 2.2}}};
+\end{tikzpicture}
+\end{center}
+\end{document}
+
+*********************************************LAB – 11**********************************************
+
+\documentclass{article}
+\usepackage[linesnumbered,ruled,vlined]{algorithm2e}
+\begin{document}
+\begin{algorithm}[H]
+\caption{Linear Search}
+\KwIn{An array $A$ of $n$ elements and a target value $x$}
+\KwOut{The index of $x$ in $A$ if found, else $-1$}
+\For{$i \gets 1$ \KwTo $n$}{
+\If{$A[i] == x$}{
+\Return $i$\;
+}
+}
+\Return $-1$\;
+\end{algorithm}
+\end{document}
+
+*********************************************LAB – 12**********************************************
+
+\documentclass[a4paper,12pt]{report}
+\usepackage{graphicx}
+\usepackage{ragged2e}
+\usepackage{xcolor}
+\begin{document}
+\include{FrontPage-VTU}
+\include{Certificate-VTU}
+\tableofcontents
+\thispagestyle{empty}
+\chapter{Introduction}
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\section{Context based Diversification}
+The human era is evolved and dominated through the ultimate intention to know about the Universe
+and its assets more and more.................
+\chapter{Literature Review}
+Corresponding Literature works
+\chapter{Methodology}
+Corresponding Methodology
+\chapter{Performance Analysis}
+Corresponding Performance analysis
+\renewcommand{\thefigure}{4.1}
+\begin{figure}[htbp]
+\centerline{\includegraphics[scale=.4]{graph1.png}}
+\caption{A portion of concept network for query "hotel California".}
+\label{fig}
+\end{figure}
+\chapter{Conclusion}
+Corresponding Conclusion\bibliographystyle{IEEEtran}
+\bibliography{prg9}
+\end{document}
+
+
